@@ -1,0 +1,195 @@
+@media (max-width: $desktop-width-1) {
+    .main {
+        &__work {
+            flex-direction: column;
+        }
+
+        &__work-title {
+            width: 100%;
+            height: min-content;
+        }
+    }
+
+    .work-title-buttons {
+        padding-top: 2rem;
+        justify-content: center;
+    }
+
+    .title-btn {
+        margin: 0 2rem;
+    }
+}
+
+@media (max-width: $tablet-width-1) {
+    .header {
+
+        &__elements {
+            display: flex;
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-top: 2rem;
+            text-align: center;
+        }
+
+        &__title-school {
+            font-size: 3.5rem;
+            font-weight: 900;
+        }
+
+        &__title-school-link {
+            font-size: 2.5rem;
+            font-weight: 700;
+
+        }
+    }
+
+    .main {
+        &__work-img {
+            width: 100%;
+            height: auto;
+            padding-bottom: 0;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media (max-width: $tablet-width-2) {
+    .wrapper {
+
+        padding: 0 3rem;
+    }
+
+    .header {
+
+
+        &__user-photo {
+            width: 132px;
+            height: 132px;
+        }
+
+        &__title-school {
+            font-size: 3rem;
+        }
+
+        &__title-school-link {
+            font-size: 2.5rem;
+        }
+    }
+
+    .main {
+
+        &__wrapper {
+        }
+
+        &__work {
+            margin-top: 3rem;
+        }
+
+        &__work-img {
+            padding: 2rem;
+            padding-bottom: 0;
+        }
+
+        &__work-title {
+            padding: 2rem;
+
+            h3 {
+                font-size: 2rem;
+                padding-bottom: 1rem;
+            }
+
+            p {
+                font-size: 1.6rem;
+                line-height: 2rem;
+            }
+        }
+
+    }
+
+    .title-btn {
+        margin: 0 1rem;
+        width: 100px;
+        height: 40px;
+
+        a {
+            div {
+                padding: 11px 21px;
+            }
+        }
+    }
+}
+
+@media (max-width: $mobile-width-1) {
+    .wrapper {
+
+    }
+
+    .header {
+        &__wrapper {
+            flex-direction: column;
+        }
+
+        &__title {
+            margin-top: 2rem;
+            text-align: center;
+        }
+    }
+
+    .main {
+        &__work {
+            margin-top: 3rem;
+        }
+
+        &__work-img {
+            padding: 2rem;
+            padding-bottom: 0;
+        }
+
+        &__work-title {
+            padding: 2rem;
+
+            h3 {
+                font-size: 2rem;
+                padding-bottom: 1rem;
+            }
+
+            p {
+                font-size: 1.6rem;
+                line-height: 2rem;
+            }
+        }
+    }
+
+    .footer {
+        &__wrapper {
+            flex-direction: column-reverse;
+            justify-content: space-around
+        }
+
+        &__elements {
+            margin-top: 1rem;
+        }
+    }
+}
+
+@media (max-width: $mobile-width-2) {
+    .wrapper {
+        padding: 0 2rem;
+    }
+
+    .header {
+        &__wrapper {
+            padding: 1rem 2rem;
+        }
+
+        &__title-school-link {
+            font-size: 2rem;
+        }
+    }
+}
