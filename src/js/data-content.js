@@ -10,12 +10,12 @@ export const about = {
                 <h3>Hi! My name is Sergey</h3>
                 <ul>
                     <li>I am a novice front-end developer .</li>
-                    <li>Have skills in elastic and adaptive layout.</li>
-                    <li>Learning Node.js</li>
-                    <li>Completed the HTML code-basics training course <b>«HTML, CSS and JavaScript for beginners»</b></li>
-                    <li>Finishing <b>«The Rolling Scopes school»</b> training course (EPAM Systems).</li>
-                    <li>Completed a course of technical translation from English into Russian <b>(Milashevich method)</b>.</li>
-                    <li>Visiting a course of conversational English (A2).</li>
+                    <li>have skills in elastic and adaptive layout.</li>
+                    <li>learning Node.js</li>
+                    <li>completed the HTML code-basics training course <b>«HTML, CSS and JavaScript for beginners»</b></li>
+                    <li>finishing <b>«The Rolling Scopes school»</b> training course (EPAM Systems).</li>
+                    <li>completed a course of technical translation from English into Russian <b>(Milashevich method)</b>.</li>
+                    <li>attending a course of conversational English (A2).</li>
                 </ul>
             </div>
             
@@ -128,7 +128,7 @@ export const titleContents = [
         id: 3,
         title: 'Calculator',
         description: {
-            en: `Calculator is the application that performs simple math operations.
+            en: `Calculator is an application that performs simple math operations..
                 <br><br>
                 ${technologies.html}, ${technologies.en.sass} and ${technologies.js} ${technologies.en.technology}.
                 `,
@@ -147,7 +147,7 @@ export const titleContents = [
         id: 4,
         title: 'Meditation',
         description: {
-            en: `Meditation is the app for relaxation and meditation.
+            en: `Meditation is an app for relaxation and meditation.
                 <br>
                 <b>Basics of working with video, audio, timers.</b>
                 <br><br>
@@ -169,7 +169,7 @@ export const titleContents = [
         id: 5,
         title: 'Drum Kit',
         description: {
-            en: `Drum Kit is the musical app that allows one to play sounds by pressing keys on the keyboard.
+            en: `Drum Kit is a musical app that allows one to play sounds by pressing keys on the keyboard.
                 <br><br>
                 ${technologies.html}, ${technologies.en.sass} and ${technologies.js} ${technologies.en.technology}.
                 `,
@@ -232,7 +232,7 @@ export const titleContents = [
         id: 8,
         title: 'Fun with HTML5 Canvas ',
         description: {
-            en: `Canvas on which you can draw lines, thickness and color of which are changing while you draw. 
+            en: `Canvas on which you can draw lines, thickness and color of which are changing while you are drawing. 
                 <br>
                 <b>The basics of working with canvas.</b>
                 <br><br>
@@ -383,7 +383,7 @@ export const titleContents = [
         title: 'Chat on socket.io',
         description: {
             en: `The chat application for sending / receiving messages in real time, 
-                which has a client and server part of the code.
+                that has a client and server part of the code.
                 <br>
                 <b>Basics of work with Socket.</b>
                 <br><br>

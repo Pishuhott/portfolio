@@ -42,8 +42,8 @@ export function render() {
     let lang = browserLang.lang
     const html = titleContents.map(toHTMLWorks).join('')
     document.querySelector('#main-content').innerHTML = `
+    <div class="main__abuot">${about.aboutMe[lang]}</div>
     <div class="main__my-works">${about.myWorks[lang]}</div>
     ${html}
-    <div class="main__abuot">${about.aboutMe[lang]}</div>
     `
 }

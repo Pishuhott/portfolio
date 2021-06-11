@@ -89,6 +89,9 @@
     &__about-me  {
         li {
             line-height: 3.5rem;
+            &:nth-child(1) {
+                list-style: none;
+            }
         }
     }
 
