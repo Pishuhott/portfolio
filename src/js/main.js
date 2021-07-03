@@ -29,7 +29,7 @@ let toHTMLWorks = cont => {
             </div>
             <div class="work-title-buttons">
                 ${checkContentBtn(cont.urlDemo)}
-                <button class="title-btn no-hover-btn">
+                <button class="title-btn">
                     <a href="${cont.urlGitHub}" target="_blank">GITHUB</a>
                 </button>
             </div>

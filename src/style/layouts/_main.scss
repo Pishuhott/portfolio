@@ -121,12 +121,12 @@
     margin-right: 4rem;
     width: 150px;
     height: 50px;
+    border: 1px solid black;
+    background: none;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background: none;
-    border: none;
 
     a {
         width: 100%;
@@ -134,10 +134,6 @@
         font-size: 1.6rem;
         font-weight: 300;
     }
-}
-
-.title-btn.no-hover-btn {
-    border: 1px solid black;
 }
 
 .title-btn.hover-btn {
@@ -158,6 +154,7 @@
         border: 1px solid black;
         animation: round 4s linear infinite;
         z-index: -1;
+        padding: 1px;
     }
 }
 
