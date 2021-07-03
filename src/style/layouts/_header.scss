@@ -8,17 +8,11 @@
         padding: 1rem;
     }
 
-    &__user {
-    }
-
     &__user-photo {
         width: 162px;
         height: 162px;
         border: 6px solid $color-main;
         border-radius: 50%;
-    }
-
-    &__title {
     }
 
     &__title-school {
@@ -30,6 +24,7 @@
         font-size: 3rem;
         font-weight: 700;
         transition: all .2s linear;
+
         &:hover {
             text-shadow: 2px 2px 2px rgba($color-shadow, .5);
         }

@@ -24,6 +24,7 @@
             width: 497px;
             height: 280px;
             transition: .3s;
+
             &:hover {
                 box-shadow: -5px 0 5px rgba($color-shadow, 0.25), 5px -5px 5px rgba($color-shadow, .25);
             }
@@ -48,7 +49,6 @@
             font-size: 1.8rem;
             line-height: 2.6rem;
         }
-
     }
 
     b {
@@ -79,16 +79,14 @@
             font-weight: 500;
 
             color: #3e4250;
-            list-style-position:inside;
+            list-style-position: inside;
         }
-
-
-
-
     }
-    &__about-me  {
+
+    &__about-me {
         li {
             line-height: 3.5rem;
+
             &:nth-child(1) {
                 list-style: none;
             }
@@ -97,9 +95,11 @@
 
     &__skills {
         margin-top: 5rem;
+
         ul {
             text-align: center;
         }
+
         li {
             display: inline-block;
             margin: 1rem 1rem;
@@ -116,6 +116,7 @@
 }
 
 .title-btn {
+    box-sizing: content-box;
     position: relative;
     margin-right: 4rem;
     width: 150px;
@@ -124,17 +125,14 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    background: none;
+    border: none;
 
     a {
         width: 100%;
-        height: 100%;
-        display: block;
-        text-align: center;
-        div {
-            padding: 15px 46px;
-            font-size: 1.6rem;
-            font-weight: 300;
-        }
+        padding: 10% 0;
+        font-size: 1.6rem;
+        font-weight: 300;
     }
 }
 
@@ -143,6 +141,7 @@
 }
 
 .title-btn.hover-btn {
+    border: 1px solid white;
 
     &:before {
         animation-delay: -2s !important;
@@ -162,17 +161,17 @@
     }
 }
 
-@keyframes round{
-    0%, 100%{
+@keyframes round {
+    0%, 100% {
         clip: rect(0px, 150px, 10px, 0);
     }
-    25%{
+    25% {
         clip: rect(0px, 10px, 50px, 0);
     }
-    50%{
+    50% {
         clip: rect(49px, 150px, 50px, 0);
     }
-    75%{
+    75% {
         clip: rect(0px, 150px, 50px, 150px);
     }
 }

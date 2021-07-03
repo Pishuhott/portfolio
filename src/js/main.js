@@ -6,10 +6,10 @@ function checkContentBtn(content) {
 
     if (content !== '') {
         return html = `
-               <div class="title-btn no-hover-btn">
-                    <a href="${content}" target="_blank"><div>DEMO</div></a>
-               </div>
-        `
+                        <button class="title-btn no-hover-btn">
+                            <a href="${content}" target="_blank">DEMO</a>
+                        </button>
+                      `
     } else {
         return html
     }
@@ -18,7 +18,7 @@ function checkContentBtn(content) {
 let toHTMLWorks = cont => {
     let lang = browserLang.lang
     return `
-    <div class="main__work">
+    <div class="main__work" data-aos="fade-right">
         <div class="main__work-img">
             <img src="${cont.img}" alt="${cont.title}">
         </div>
@@ -29,9 +29,9 @@ let toHTMLWorks = cont => {
             </div>
             <div class="work-title-buttons">
                 ${checkContentBtn(cont.urlDemo)}
-                <div class="title-btn no-hover-btn">
-                    <a href="${cont.urlGitHub}" target="_blank"><div>GITHUB</div></a>
-                </div>
+                <button class="title-btn no-hover-btn">
+                    <a href="${cont.urlGitHub}" target="_blank">GITHUB</a>
+                </button>
             </div>
         </div>
     </div>
