@@ -34,3 +34,26 @@ itemsLang.forEach(item => {
         inputLang.querySelector('[data-type="value"]').textContent = item.dataset.value
     }
 })
+
+export function sortTechnologies(tab) {
+    const works = document.querySelectorAll('.main__work')
+
+    for (let i = 0; i < works.length; i++) {
+        let dataArr =  works[i].dataset.type.split(' ')
+        works[i].classList.remove('work-sort')
+
+        if (!checkDataType(dataArr, tab)) {
+            works[i].classList.add('work-sort')
+        }
+    }
+    AOS.init()
+}
+
+function checkDataType(work, tab) {
+    for (let i = 0; i < work.length; i++) {
+        if (work[i] === tab) {
+           console.log('y')
+            return true
+        }
+    }
+}

@@ -23,7 +23,7 @@ export const about = {
                 <h2>Key qualifications</h2>
                 <ul >
                     <li>HTML5/CSS3</li>
-                    <li>Less/Sass</li>
+                    <li>SASS</li>
                     <li>BEM</li>
                     <li>JavaScript</li>
                     <li>Git</li>
@@ -48,9 +48,9 @@ export const about = {
             
             <div class="main__skills">
                 <h2>Ключевые навыки</h2>
-                <ul >
+                <ul>
                     <li>HTML5/CSS3</li>
-                    <li>Less/Sass</li>
+                    <li>SASS</li>
                     <li>БЭМ</li>
                     <li>JavaScript</li>
                     <li>Git</li>
@@ -85,6 +85,7 @@ export const titleContents = [
     {
         id: 1,
         title: 'Simple Singolo',
+        technologies: ['sass', 'js'],
         description: {
             en: `Simple Singolo is a website page designed according to the layout.
                 <br>
@@ -107,6 +108,7 @@ export const titleContents = [
     {
         id: 2,
         title: 'Dynamic Landing Page',
+        technologies: ['js'],
         description: {
             en: `Dynamic Landing Page is an app showing the current time, the name of the user and his/her tasks for 
                 the current day. The background image changes depending on the time of the day.
@@ -127,6 +129,7 @@ export const titleContents = [
     {
         id: 3,
         title: 'Calculator',
+        technologies: ['js'],
         description: {
             en: `Calculator is an application that performs simple math operations
                 <br><br>
@@ -146,6 +149,7 @@ export const titleContents = [
     {
         id: 4,
         title: 'Meditation',
+        technologies: ['js'],
         description: {
             en: `Meditation is an app for relaxation and meditation.
                 <br>
@@ -168,6 +172,7 @@ export const titleContents = [
     {
         id: 5,
         title: 'Drum Kit',
+        technologies: ['js'],
         description: {
             en: `Drum Kit is a musical app that allows one to play sounds by pressing keys on the keyboard.
                 <br><br>
@@ -187,6 +192,7 @@ export const titleContents = [
     {
         id: 6,
         title: 'CSS Variables and JS',
+        technologies: ['js'],
         description: {
             en: `A photo editor that allows you to edit an image by applying various properties and filters.
                 <br>
@@ -209,6 +215,7 @@ export const titleContents = [
     {
         id: 7,
         title: 'Flex Panel Gallery',
+        technologies: ['js'],
         description: {
             en: `Image slider in JavaScript.
                 <br>
@@ -231,6 +238,7 @@ export const titleContents = [
     {
         id: 8,
         title: 'Fun with HTML5 Canvas ',
+        technologies: ['js'],
         description: {
             en: `Canvas on which you can draw lines, thickness and color of which are changing while you are drawing. 
                 <br>
@@ -253,6 +261,7 @@ export const titleContents = [
     {
         id: 9,
         title: 'Custom Video Player',
+        technologies: ['js'],
         description: {
             en: `Creation of a custom video player with a modified interface.
                 <br><br>
@@ -271,6 +280,7 @@ export const titleContents = [
     {
         id: 10,
         title: 'Video Speed Controller',
+        technologies: ['js'],
         description: {
             en: `Speed control for video playback. You can speed up or slow down the video playback 
                  speed by moving the slider.
@@ -291,6 +301,7 @@ export const titleContents = [
     {
         id: 11,
         title: 'Whack-A-Mole',
+        technologies: ['js'],
         description: {
             en: `The game to check the speed of one’s reaction: you have to click on targets and earn points.
                 <br>
@@ -313,6 +324,7 @@ export const titleContents = [
     {
         id: 12,
         title: 'Virtual Keyboard',
+        technologies: ['js'],
         description: {
             en: `By clicking on the text field, you will get a virtual keyboard at the bottom of the screen. 
                 <br>
@@ -335,6 +347,7 @@ export const titleContents = [
     {
         id: 13,
         title: 'Raindrops',
+        technologies: ['js'],
         description: {
             en: `Raindrops is a math simulator app that allows you to consolidate the skills in arithmetic 
                 operations: addition, subtraction, multiplication and division. During the exercise, you can choose 
@@ -357,6 +370,7 @@ export const titleContents = [
     {
         id: 14,
         title: 'Fancy weather',
+        technologies: ['sass', 'js', 'api'],
         description: {
             en: `Fancy weather is an app showing the weather forecast for three days.
                 <br>
@@ -381,6 +395,7 @@ export const titleContents = [
     {
         id: 15,
         title: 'Chat on socket.io',
+        technologies: ['js', 'jq', 'node', 'socket'],
         description: {
             en: `The chat application for sending / receiving messages in real time, 
                 that has a client and server part of the code.
