@@ -48,8 +48,6 @@ export function render() {
         <ul class="main__tab-technologies">
             <li data-type="sass">SASS</li>
             <li data-type="js">JavaScript</li>
-            <li data-type="jq">jQuery</li>
-            <li data-type="node">Node.js</li>
             <li data-type="socket">Socket.io</li>
             <li data-type="api">API</li>
         </ul>
